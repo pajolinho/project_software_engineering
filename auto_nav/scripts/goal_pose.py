@@ -76,6 +76,8 @@ if __name__ == "__main__":
             move_to_goal(-1.9246, -0.2412, -0.7859, 0.6183)
         elif pickup_point == "start":
             move_to_goal(-0.003665552401329465,-0.002496016669213173, -0.0008032342325771792,  0.9999996774073318)
+        elif pickup_point == "laden":
+            move_to_goal(-1.9468538289465493, -0.20887261915752253, -0.8256588490786319, 0.564169712886246)
         else:
             rospy.loginfo("Invalid pickup point!")
     else:
