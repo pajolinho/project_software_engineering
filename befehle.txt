@@ -1,0 +1,13 @@
+roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=/home/ertan/1501flur1.yaml
+
+rosrun auto_nav init_pose.py ~/catkin_ws/src/auto_nav/initial_position.yaml
+
+rosrun auto_nav goal_pose.py "pickup_point_tuer"
+
+
+
+1. 2D Nav-Goal
+2. dann "rosrun auto_nav init_pose.py ~/catkin_ws/src/auto_nav/initial_position.yaml" auführen
+3. rostopic echo /initialpose
+
+
